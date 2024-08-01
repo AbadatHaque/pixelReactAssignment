@@ -1,0 +1,105 @@
+
+.form-container {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -3px -2px 16px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    position: relative;
+    min-height: 350px;  
+  }
+.form-control {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 5px;
+    font-weight: 400;
+    /* color: ; */
+    font-size: 14px;  
+
+  }
+
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;  
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  input:focus {
+    border-color: rgb(101, 72, 5);
+  }
+ 
+   input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+      }
+
+  button {
+    padding: 5px;
+    background-color: rgb(198, 32, 32);
+    color: #f9f9f9;
+    border: none;
+    border-radius:5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+
+  button:hover {
+    color: red;
+    background-color: white;
+
+  }
+
+  .actionBtn{
+    position: absolute;
+    right: 10px;
+    
+  }
+.deleteBtn{
+  margin-top: 0px;
+}
+  button[type="submit"] {
+    padding: 10px;
+    border-radius:8px;
+    font-size: 16px;
+  }
+  .errorMsg {
+    color: red;
+    font-size: 10px;
+    margin-top: 5px;
+    font-weight: normal;
+  }
+  .errMsg input{
+    border: 1px solid #ff0000;
+  }
+  .Heading{
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 40px;
+  }
+  /* //customize loader */
+  .loader-container{
+    justify-content: right !important;
+  }
+  .loader{
+    margin-top: -22px;
+    display: inline !important;
+  }
+  .loader .spinner{
+    width: 20px !important;
+    height: 20px !important;
+    float: right !important;
+    border-top-color: #a91212 !important;
+    border-width: 3px !important
+  }
